@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 14px;
+}
+
+:root{
+    /*Primary*/
+
+    --Gradient: linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 100%);;
+
+    /*Neutral*/
+
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+
+    /*FONT*/
+
+    --font: 'Raleway', sans-serif;
+}
+body {
+    background-image: url(images/bg-mobile.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}    
+/*CARD 1*/
+
+.container {
+    width: 85vw;
+}
+
+.card-1 {
+    background: var(--Dark-Blue);
+    border-radius: 10px 100px 10px 10px;
+    padding: 35px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 110px;
+    margin: 10px 0 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 160px;
+    
+}
+
+.if {
+    width: 44px;
+    padding: 12px 10px;
+}
+
+.iu {
+    width: 44px;
+    padding: 14px 10px;
+}
+
+.icon {
+     background: var(--Very-Dark-Blue);
+     width: 45px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/*END CARD 1*/
+
+/*CARD 2*/
+
+.card-2 {
+    background: var(--Dark-Blue);
+    border-radius: 10px;
+    padding: 35px;
+    margin-bottom: 10px;
+}
+
+.card-2 p {
+    text-align: center;
+    color: var(--Pale-Blue);
+    font-weight: 400;
+}
+
+span {
+    font-weight: 700;
+}
+
+/*MEMORY BAR*/
+
+.bg-bar {
+    width: 100%;
+    height: 18px;
+    background: var(--Very-Dark-Blue);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: 17px 0 10px 0;
+}
+
+.color-bar {
+    width: 72%;
+    height: 12px;
+    background: var(--Gradient);
+    border-radius: 50px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.point-bar {
+    width: 9px;
+    height: 9px;
+    background: var(--Pale-Blue);
+    border-radius: 100%;
+    margin: 3px;
+}
+/*END MEMORY BAR*/
+
+.memory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--Pale-Blue);
+}
+
+.memory span {
+    font-size: 12px;
+}
+
+/*END CARD 2*/
+
+/*CARD 3*/
+
+
+
+/*END CARD 3*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
